@@ -1,0 +1,27 @@
+let counter = 0;
+
+function add() {
+    counter++;
+    console.log(pad(counter));
+    document.getElementById("myText").innerHTML = pad(counter);
+}
+
+function subtract() {
+    counter--;
+    console.log(pad(counter));
+
+    document.getElementById("myText").innerHTML = pad(counter);
+
+}
+
+function pad(val)  {
+    return (val).toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false});
+}
+
+function copy() {
+    
+    document.getElementById("finalVal").value = pad(counter);
+}
+
+console.log("testz");
+console.log(counter);
