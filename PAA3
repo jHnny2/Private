@@ -1,0 +1,61 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Event-Driven 4-114</title>
+        
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="script.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+        
+        <div class="container"> <div class="row">
+            <div style="padding-top: 5%;" class="row">
+                <div class="col s6">
+                    <h4>Preparatory Assessment #3</h4>
+                    <h4 style="font-style: italic; color:dodgerblue">Simple Counter</h4>
+                </div>
+                <div class="col s6">
+                    <div class="row">
+                        <div class="col s2">
+                            <button style="margin-top: 45%" onclick = "subtract()" class= "btn btn-large red" >-1</button>
+                        </div>
+
+                        <div class="col s2">
+                            <p style="text-align: center;font-size: 30px;"  id="myText">00</p>
+                        </div>
+
+                        <div class="col s2">
+                            <button style="margin-top: 45%" onclick = "add()" class= "btn btn-large green">+1</button>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="input-field col s3" style="width: 200px">    
+                            <input style="text-align: center;font-size: 30px;" placeholder="00" id="finalVal" type="text">
+                        </div>
+                        <div class="col s3">
+                            <button style="margin-top: 20%" onclick = "copy()" class= "btn blue">
+                                <span class="material-icons md-24">content_copy</span>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+              </div>
+                    
+          </div>
+                
+          </div>
+
+        
+
+    </body>
+</html>
